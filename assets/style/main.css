@@ -10,10 +10,12 @@
         padding: 0;
 }
 
+/*elementos base*/
 body 
 {
         background: var(--preta);
         font-family:  'Times New Roman', Times, serif;
+        color:white;
 }
 
 header .container
@@ -44,4 +46,56 @@ header nav a:hover
 {
         color:#FFF;
         
+}
+
+/*filme principal*/
+
+.filme-principal
+{
+        font-size: 16px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/naruto_img2.jpg');
+        /*linear-gradiente(rgba(),rgba()100%) camada pro cima*/
+        
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+}
+.filme-principal .descricao
+{
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+}
+.filme-principal .titulo
+{
+        margin-top: 5%;
+        font-size: 40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botoes .botao
+{
+        background-color: rgba(0,0,0,.5) ;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        margin-right: 15px;
+        font-size: 12px;
+        cursor:pointer;
+        transition: .3s ease all;
+}
+.botoes .botao:hover
+{
+        background-color: white;
+        color:#141414;
+        
+}
+.botao i
+{
+        margin-right: 5px;
 }
