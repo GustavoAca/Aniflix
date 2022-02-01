@@ -1,0 +1,47 @@
+@charset "UTF-8";
+:root {
+        --vermelho: #E50914;
+        --preta: #141414;
+}
+*
+{
+        box-sizing: 0;
+        margin: 0;
+        padding: 0;
+}
+
+body 
+{
+        background: var(--preta);
+        font-family:  'Times New Roman', Times, serif;
+}
+
+header .container
+{
+        display: flex;
+        flex-direction: row;/*carater semantico, vem como default*/
+        align-items: center;
+        justify-content: space-between;
+}
+
+header .logo
+{
+        margin-left: 10px;
+        color:var(--vermelho);
+        font-family: 'Arial Black', Times;  /* times fica como segunda opção*/
+        font-size: 40px;
+}
+
+header nav a
+{
+      text-decoration: none;
+      color: #AAA;
+      margin-right: 10px;
+      
+}
+
+header nav a:hover
+{
+        color:#FFF;
+        
+}
