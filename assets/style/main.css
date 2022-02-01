@@ -14,7 +14,7 @@
 body 
 {
         background: var(--preta);
-        font-family:  'Times New Roman', Times, serif;
+        font-family:  Arial, Times, serif;
         color:white;
 }
 
@@ -69,7 +69,12 @@ header nav a:hover
 {
         margin-top: 10px;
         margin-bottom: 40px;
+        width: 50%;
 
+}
+.container .ult{
+        padding-right: 100px;
+        margin: 10px;
 }
 .filme-principal .titulo
 {
@@ -116,4 +121,17 @@ header nav a:hover
         height: 100%;
         width: 100%;
         display: block;
+}
+.carrosel-filmes
+{
+        margin-top: 10px;
+}
+/* video*/
+
+#video 
+{
+        width: 1000px;
+        height: 580px;
+        padding: 10px ;
+        padding-left: 100px;
 }
