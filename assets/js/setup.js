@@ -4,7 +4,6 @@ $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
         video:true,
-        nav:true,
         lazyLoad:true,
         center:true,
         responsive:{
