@@ -241,6 +241,41 @@ menuToggle input:checked ~ span:nth-last-child(2)
 
 /*imagens*/
 
+.item .box-filme:hover
+{
+transform:  scale(1.2);
+
+    background-size: 200px 200px;
+}
+
+
+.item .box-filme span
+{
+        opacity: 0;
+     color: #ffffff;
+     text-shadow: 1px 1px 1px #000000;
+     background-color: rgba(0, 0, 0, .3);;
+     font-size: 9pt;
+     line-height: 370px;
+    
+}
+.item .box-filme:hover span
+{
+        opacity: 1;
+}
+.item .box-filme
+{
+        background-position: 50% 50%;
+        background-size: 400px 400px; 
+        float: left;
+        width: 100px;
+        height: 200px;
+        transition: all .4s ease-in;
+}
+
+
+
+
 .box-filme
 {
         height: 100%;
