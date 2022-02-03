@@ -268,8 +268,8 @@ transform:  scale(1.2);
         background-position: 50% 50%;
         background-size: 400px 400px; 
         float: left;
-        width: 100px;
-        height: 200px;
+        width: 220px;
+        height: 300px;
         transition: all .4s ease-in;
 }
 
