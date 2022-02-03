@@ -149,20 +149,20 @@ menuToggle input:checked ~ span:nth-last-child(2)
 #menu
 {
         position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  border-radius: 0px 73px 73px 73px;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        border-radius: 0px 73px 73px 73px;
   
-  background-color: var(--preta);  
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        background-color: var(--preta);  
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menu li
 {
@@ -179,7 +179,7 @@ menuToggle input:checked ~ span:nth-last-child(2)
 .filme-principal
 {
         font-size: 16px;
-        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/naruto_img2.jpg');
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/principal/naruto_img2.jpg');
         /*linear-gradiente(rgba(),rgba()100%) camada pro cima*/
         
         height: 400px;
