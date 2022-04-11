@@ -146,7 +146,7 @@ menuToggle input:checked ~ span:nth-last-child(2) {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("/img/principal/naruto_img2.jpg");
+    url("../../img/principal/naruto_img2.jpg");
   /*linear-gradiente(rgba(),rgba()100%) camada pro cima*/
 
   height: 400px;
